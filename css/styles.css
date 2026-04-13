@@ -63,7 +63,7 @@ h5 {
   font-size: 42px;
   font-weight: 700;
   color: #002366;
-  min-width: 90px; 
+  min-width: 90px;
 }
 
 .stats p {
@@ -113,6 +113,23 @@ h5 {
   transform: translateY(-6px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
 }
+.features .btn {
+    text-align: left;
+}
+
+.cta {
+  background: #0b1f4b;
+  color: #fff;
+  padding: 70px 20px;
+}
+
+.cta h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+.cta p {
+    max-width: 500px;
+}
 
 .footer {
   background: #ddeaff;
@@ -128,7 +145,7 @@ h5 {
 .social-btn {
   width: 45px;
   height: 45px;
-  border-radius: 50%; /* makes it round */
+  border-radius: 50%;
   background: #f1f5ff;
   display: inline-flex;
   align-items: center;
@@ -168,4 +185,12 @@ h5 {
   color: #fff;
   font-size: 14px;
   font-weight: bold;
+}
+
+.btn {
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
 }
