@@ -59,15 +59,70 @@ h5 {
   color: #fff;
 }
 
+.stat {
+  font-size: 42px;
+  font-weight: 700;
+  color: #002366;
+  min-width: 90px; 
+}
+
+.stats p {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.stats .col-6 p {
+  font-size: 16px;
+  color: #666;
+}
+
+.stats {
+  padding: 80px 0;
+  background-image: url("https://placehold.co/600x400");
+}
+
+.stats-gap {
+  height: 35vh;
+}
+
+.features {
+  padding: 150px 0;
+  background: #fff;
+}
+
+.features h2 {
+  font-weight: 600;
+  color: #002366;
+}
+
+.feature-card {
+  border-radius: 16px;
+  padding: 30px;
+  background: #e9f0ff;
+  transition: 0.3s;
+  height: 100%;
+  text-align: center;
+}
+
+.feature-card img {
+  margin-bottom: 15px;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
 .footer {
-  background:  #ddeaff;
+  background: #ddeaff;
   padding: 30px 0;
   font-size: 14px;
   color: #002366;
 }
 
-.footer p{
-    font-size: 16px;
+.footer p {
+  font-size: 16px;
 }
 
 .social-btn {
@@ -88,7 +143,7 @@ h5 {
   background: #002366;
   color: #fff;
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .footer-link {
@@ -112,5 +167,5 @@ h5 {
 .copyright-bar p {
   color: #fff;
   font-size: 14px;
-  font-weight:bold ;
+  font-weight: bold;
 }
