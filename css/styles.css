@@ -113,9 +113,6 @@ h5 {
   transform: translateY(-6px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
 }
-.features .btn {
-    text-align: left;
-}
 
 .cta {
   background: #0b1f4b;
