@@ -59,31 +59,57 @@ h5 {
   color: #fff;
 }
 
+.stats {
+  padding: 80px 20px;
+  background-image: url("https://placehold.co/1200x720");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.stat-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.stat-box.right {
+  justify-content: flex-end;
+}
+
 .stat {
   font-size: 42px;
   font-weight: 700;
   color: #002366;
-  min-width: 90px;
 }
 
 .stats p {
   font-size: 18px;
   color: #444;
-  line-height: 1.5;
+  margin: 0;
 }
 
-.stats .col-6 p {
-  font-size: 16px;
-  color: #666;
+.stats-row {
+  margin-top: 60px;
 }
 
-.stats {
-  padding: 80px 0;
-  background-image: url("https://placehold.co/600x400");
-}
+@media (max-width: 768px) {
+  .stat-box {
+    flex-direction: column;
+    text-align: center;
+  }
 
-.stats-gap {
-  height: 35vh;
+  .stat-box.right {
+    justify-content: center;
+  }
+
+  .stat {
+    font-size: 28px;
+  }
+
+  .stats p {
+    font-size: 14px;
+  }
 }
 
 .features {
